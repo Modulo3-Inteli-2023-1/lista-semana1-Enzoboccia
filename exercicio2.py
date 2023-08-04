@@ -7,8 +7,7 @@ def cumulativo(lista):
         cumulativo_list.append(soma)
 
     return cumulativo_list
-
-# Teste da função
+    
 lista = [2, 3, 4, 5]
 resultado = cumulativo(lista)
 print(resultado)  # Output: [2, 5, 9, 14]

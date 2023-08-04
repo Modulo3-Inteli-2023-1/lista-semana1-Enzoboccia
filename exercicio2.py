@@ -1,20 +1,17 @@
-#  Se achar necessario, faça import de outras bibliotecas
+def cumulativo(lista):
+    cumulativo_list = []
+    soma = 0
 
+    for num in lista:
+        soma += num
+        cumulativo_list.append(soma)
 
+    return cumulativo_list
 
-
-
-# Crie a função que será avaliada no exercício aqui
-
-
-
-
-
-
-
-# Teste a sua função aqui (caso ache necessário)
-
-
+# Teste da função
+lista = [2, 3, 4, 5]
+resultado = cumulativo(lista)
+print(resultado)  # Output: [2, 5, 9, 14]
 
 
 
